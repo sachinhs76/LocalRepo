@@ -3,5 +3,15 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("git hub project");
+        Main m=new Main();
+        System.out.println(m.add(5,6));
+        System.out.println();
+
         }
+        public int add(int x, int y)
+        {
+            int z=x+y;
+            return z;
+        }
+
     }
